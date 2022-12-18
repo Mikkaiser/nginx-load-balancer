@@ -24,8 +24,10 @@ After that, just run the docker compose to launch the necessary containers:
 docker compose up -d
 ```
 
+You can type in url: http://labs.com.br and see the result. Adding the /blue and /green, you can see different pages. The nginx is managing the redirect options, acting as a reverse proxy.
+
 ## References
 
-https://www.youtube.com/watch?v=bFZurhL14LA
-https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
+https://www.youtube.com/watch?v=bFZurhL14LA <br>
+https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/<br>
 https://blog.logrocket.com/how-to-run-a-node-js-server-with-nginx/
